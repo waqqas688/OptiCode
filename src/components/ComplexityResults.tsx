@@ -1,7 +1,7 @@
 interface ComplexityResultsProps {
     complexity: { time: string; space: string };
   }
-  
+  //Change to whole page file for any input
   const ComplexityResults: React.FC<ComplexityResultsProps> = ({ complexity }) => {
     return (
       <div className="w-full bg-white p-6 rounded-md shadow-md mt-6">
