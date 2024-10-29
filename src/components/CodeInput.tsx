@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+//improvement of logic
 interface CodeInputProps {
   onAnalyze: (inputCode: string) => void;
 }
